@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body style="background-color:#FCE2CE;">
+        
+    <title>Student Results</title>
+    <script type="text/javascript" src="prac.js"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+
+<body>        
+<div id="p">
+<section>
+
+    <fieldset style="width:600px">
+      <legend>
+        <b>
+            Student Input Section:
+        </b>
+      </legend>
+
+        Name:<input type="text" id="txtName">   
+
+        Class:<input type="text" id="txtClass">
+
+        <br><br>
+
+        Roll Number:<input type="number" id="Number">
+            <br/>
+            <br/>
+            <hr>
+<div class="container">
+    <table border="1" style= "width: 300px" "border-spacing: 100px">
+
+
+            <tr te>
+                <td>Physics</td>
+                <td><input type="number" id="bkOne" placeholder="Marks" name=""></td>
+            </tr>
+
+
+            <tr>
+                <td>History</td>
+                <td><input type="number" id="bkTwo" placeholder="Marks" name=""></td>
+            </tr>
+
+        
+
+            <tr>
+                <td>Maths</td>
+                <td><input type="number" id="bkThree" placeholder="Marks" name=""></td>
+            </tr>
+
+        
+
+            <tr>
+                <td>Pf</td>
+                <td><input type="number" id="bkFour" placeholder="Marks" name=""></td>
+            </tr>
+
+        
+
+            <tr>
+                <td>iict</td>
+                <td><input type="number" id="bkFive" placeholder="Marks" name=""></td>
+            </tr>
+
+            
+            <tr>
+                <td colspan="2">
+            <button class="btn1" onclick="calculate();">Calculate</button>
+                </td>
+            </tr>
+
+    </table>
+    
+</div> 
+
+   <br/>
+   <br/>
+             
+ </fieldset>
+
+ <div id="p2">
+
+            
+            
+            
+    <table border="2" style="width: 630px" "height: 200px">
+
+        <th colspan="2"><h2>Report Card</h2></th>
+                
+        <tr>
+            <td>Total Marks:</td>
+            <td>500</td>
+        </tr>
+
+        <tr>
+            <td>Obtained</td>
+            <td id="obtain"></td>
+        </tr>
+
+        <tr>
+            <td>Grade</td>
+            <td id="grade"></td>
+        </tr>
+
+        <tr>
+            <td>Remarks</td>
+            <td id="remark"></td>
+        </tr>
+
+        <tr>
+            <td>Percentage</td>
+            <td id="per"></td>
+        </tr>
+    </table>
+</div>
+
+</section>
+
+
+
+</body>
+
+</div>
+
+</html>
